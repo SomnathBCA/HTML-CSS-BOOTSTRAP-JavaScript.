@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somnath Chatterjee - Resume</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        .resume-container {
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .header p {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 30px;
+        }
+        .section-title {
+            color: #0d6efd;
+            border-bottom: 2px solid #0d6efd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        .contact-info {
+            background-color: #f1f8ff;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .contact-item {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .contact-item i {
+            width: 20px;
+            color: #0d6efd;
+            margin-right: 10px;
+        }
+        .table {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+        .table thead {
+            background-color: #0d6efd;
+            color: white;
+        }
+        .highlight {
+            font-weight: 600;
+        }
+        .progress {
+            height: 10px;
+            margin-top: 5px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f8ff;
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        @media print {
+            body {
+                background-color: white;
+            }
+            .resume-container {
+                box-shadow: none;
+                margin: 0;
+                max-width: 100%;
+            }
+            .content {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="row">
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div class="profile-image">
+                        <img src="IMG.JPG" alt="Somnath Chatterjee" class="img-fluid rounded-circle border border-3 border-white shadow">
+                    </div>
+                </div>
+                <div class="col-md-9 d-flex flex-column justify-content-center">
+                    <h1>Somnath Chatterjee</h1>
+                    <p>BCA Student at Kazi Nazrul University</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <!-- Personal Information -->
+            <div class="row mb-4">
+                <div class="col-lg-12">
+                    <h2 class="section-title">
+                        <i class="fas fa-user me-2"></i>Personal Information
+                    </h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <i class="fas fa-birthday-cake"></i>
+                                    <span><span class="highlight">Date of Birth:</span> December 20, 1999</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-venus-mars"></i>
+                                    <span><span class="highlight">Gender:</span> Male</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span><span class="highlight">Address:</span> Ranisayer more near BDO Office, Post: Nimcha, District: Paschim Bardhaman, Pin Code: 713358</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span><span class="highlight">Email:</span> somnath@example.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <span><span class="highlight">Phone:</span> +91 XXXXXXXXXX</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span><span class="highlight">LinkedIn:</span> linkedin.com/in/somnath-chatterjee</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="row mb-4">
+                <div class="col-lg-12">
+                    <h2 class="section-title">
+                        <i class="fas fa-graduation-cap me-2"></i>Education
+                    </h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover">
+                            <thead class="table-primary">
+                                <tr>
+                                    <th>Degree/Certificate</th>
+                                    <th>Institution</th>
+                                    <th>Board/University</th>
+                                    <th>Year</th>
+                                    <th>Percentage/CGPA</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Bachelor of Computer Applications (BCA)</td>
+                                    <td>Kazi Nazrul University</td>
+                                    <td>KNU</td>
+                                    <td>Pursuing</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>Higher Secondary (12th)</td>
+                                    <td>-</td>
+                                    <td>WBCHSE</td>
+                                    <td>2020</td>
+                                    <td>87%</td>
+                                </tr>
+                                <tr>
+                                    <td>Secondary (10th)</td>
+                                    <td>-</td>
+                                    <td>WBBSE</td>
+                                    <td>2017</td>
+                                    <td>76%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="row mb-4">
+                <div class="col-lg-12">
+                    <h2 class="section-title">
+                        <i class="fas fa-code me-2"></i>Technical Skills
+                    </h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <span class="highlight">Programming</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <span class="highlight">Web Development</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <span class="highlight">Database Management</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <span class="highlight">Problem Solving</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <span class="highlight">Communication</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <span class="highlight">Teamwork</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects/Achievements (Optional) -->
+            <div class="row mb-4">
+                <div class="col-lg-12">
+                    <h2 class="section-title">
+                        <i class="fas fa-trophy me-2"></i>Projects & Achievements
+                    </h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Academic Achievement</h5>
+                                <small>2020</small>
+                            </div>
+                            <p class="mb-1">Secured 87% in Higher Secondary Examination</p>
+                        </li>
+                        <!-- Add more projects/achievements as needed -->
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Interests -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-title">
+                        <i class="fas fa-heart me-2"></i>Interests
+                    </h2>
+                    <div class="d-flex flex-wrap">
+                        <span class="badge bg-primary m-1 p-2">Web Development</span>
+                        <span class="badge bg-primary m-1 p-2">Programming</span>
+                        <span class="badge bg-primary m-1 p-2">Software Development</span>
+                        <span class="badge bg-primary m-1 p-2">Mobile App Development</span>
+                        <span class="badge bg-primary m-1 p-2">Data Science</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>This resume was last updated on May 1, 2025</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
